@@ -1,0 +1,73 @@
+.rectangle-div{
+    position:absolute;
+    width:10em;
+    background:transparent;
+    z-index:4;
+}
+.rectangle-div-bg{
+    position:absolute;
+    width:10em; 
+    z-index:3;
+    cursor:pointer;
+}
+.rectangle-div-text{
+    position:absolute;
+    width:10em;
+    background:rgba(30,30,30,0.5);
+    z-index:2;
+}
+.rectangle-div-text > h2{
+    text-transform:uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-weight:300;
+    color:white;
+    font-size:4.5em;
+    position:absolute;
+    bottom:0.4em;
+    left:1.75em;
+    -moz-transform:rotate(-90deg); 
+    -webkit-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);   
+    -webkit-transform-origin: bottom left;
+    -moz-transform-origin: bottom left;
+    -ms-transform-origin: bottom left;
+    -o-transform-origin: bottom left;   
+    transform-origin: bottom left;
+}
+.rectangle-div-text > h2{
+
+}
+.rectangle-div:nth-child(1),
+.rectangle-div-bg:nth-child(2),
+.rectangle-div-text:nth-child(3){
+    left:10%;
+}
+.rectangle-div:nth-child(4),
+.rectangle-div-bg:nth-child(5),
+.rectangle-div-text:nth-child(6){
+    left:30%;
+}
+.rectangle-div:nth-child(7),
+.rectangle-div-bg:nth-child(8),
+.rectangle-div-text:nth-child(9){
+    right:30%;
+}
+.rectangle-div:nth-child(10),
+.rectangle-div-bg:nth-child(11),
+.rectangle-div-text:nth-child(12){
+    right:10%;
+}
+.rectangle-div-bg:nth-child(2){
+    background:rgba(205,0,52,1.0)
+}
+.rectangle-div-bg:nth-child(5){
+    background:rgba(55,61,64,1.0)
+}
+.rectangle-div-bg:nth-child(8){
+    background:rgba(105,113,102,1.0)
+}
+.rectangle-div-bg:nth-child(11){
+    background:rgba(45,144,156,1.0)
+}

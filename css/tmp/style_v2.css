@@ -1,0 +1,77 @@
+body{
+    background: rgba(128,128,128,0.1); 
+}
+.product-square-big{
+    position:relative;
+    top:20%;
+    left:0;
+    bottom:10%;
+    right:0;
+    display: none;
+    height:60%;
+    width:auto;
+    background:rgba(255,255,255,0.9);
+}
+.slider{
+    overflow:hidden;
+}
+.cat1 {
+    #background:red;
+    #background: url(../images/001.jpg) no-repeat center center fixed; 
+    background: url(../images/001.jpg) no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.cat2 {
+    #background:orange;
+    #background: url(../images/002.jpg) no-repeat center center fixed; 
+    background: url(../images/002.jpg) no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.cat3 {
+    #background:lime;
+    #background: url(../images/003.jpg) no-repeat center center fixed; 
+    background: url(../images/003.jpg) no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.cat4{
+    #background:purple;
+    #background: url(../images/004.jpg) no-repeat center center fixed; 
+    background: url(../images/004.jpg) no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.footer{
+    #background:blue;
+    #background: url(../images/005.jpg) no-repeat center center fixed; 
+    background: url(../images/005.jpg) no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.square1 {
+    
+}
+.square2 {
+
+}
+.square3 {
+
+}
+.square4 {
+
+}
+.square5 {
+
+}

@@ -1,0 +1,61 @@
+.left-menu-nested{
+    display:inline-block;
+    position:absolute;
+    top:12.375em;
+    left:17.625em;
+    font-family: 'Titillium Web', sans-serif;
+    z-index:4;
+}
+.left-menu-nested > ul {    
+    margin:0.5em;    
+}
+.left-menu-nested  ul {
+    text-align:right; 
+    list-style-type: none;
+    min-width:13em;
+    padding:0.5em;
+    background: rgba(255,255,255,.2);
+    background: white;
+}
+.left-menu-nested  ul a{
+    text-decoration:none;
+    color:grey;
+}
+.left-menu-nested > ul > li,
+.left-menu-nested > ul > li  > ul > li{
+    #display:inline-block;
+    padding:0.3em 1em;
+    position:relative;   
+}
+.left-menu-nested > ul > li:after,
+.left-menu-nested > ul > li  > ul > li:after{    
+    content:'';
+    display:block;
+    width: 0;
+    height: 0;
+    border-bottom: 4px solid transparent;
+    border-left: 6px solid silver;
+    border-top: 4px solid transparent;
+    border-right: 4px solid transparent;
+    position:absolute;
+    right:0;
+    top:43%;
+}
+.left-menu-nested > ul > li > a,
+.left-menu-nested > ul > li  > ul > li > a{
+    font-weight:400;
+}
+.left-menu-nested > ul > li > a:hover,
+.left-menu-nested > ul > li  > ul > li > a:hover{
+    font-weight:400;
+    color:black;
+}
+.left-menu-nested > ul  > li > ul{
+    display:none;
+    position:absolute;
+    left:100%;
+    top:0em;
+}
+.left-menu-nested > ul  > li:hover > ul{
+    display:block;
+}

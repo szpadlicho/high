@@ -1,0 +1,55 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic&subset=latin,latin-ext);
+.top-menu-div {
+    position:fixed;
+    width:100%;
+    background:rgba(20,20,20,.8);
+    text-align:center;
+    z-index:100;
+    color:white;
+    font-family: 'Open Sans', sans-serif;
+    text-transform:uppercase;
+}
+.top-menu-div  ul{
+    list-style-type: none;
+}
+.top-menu-div  ul li{
+    display:inline-block;
+    vertical-align:middle;
+}
+.top-menu-div  > ul > li{
+    position:relative;
+    margin:0 3em;
+}
+.top-menu-div  > ul > li > ul{
+    position:absolute;
+    display:none;
+}
+.top-menu-div  > ul > li:hover > ul{
+    display:block;
+}
+.top-menu-div > ul > li > a{
+    color:white;
+    text-decoration:none;
+    margin:1em;
+    font-size:1.5em;
+    font-weight:200;
+    padding:0.5em;
+    cursor: pointer;
+}
+.top-menu-div > ul > li > a:hover{
+    background: rgba(0,0,0,1.0);
+}
+.top-menu-div > ul > li > img{
+    width:11.1875em;
+    cursor:pointer;
+}
+/*next lvl*/
+.top-menu-div  > ul > li > ul{
+    background:rgba(20,20,20,0.8);
+}
+.top-menu-div  > ul > li > ul > li > a{
+    display:block;
+    color:white;
+    text-decoration:none;
+    padding:0.5em 1em;
+}

@@ -1,0 +1,1 @@
+<iframe class="google-maps" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2521.1154519953457!2d19.112348800000003!3d50.8104996!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4710b5da3e61822d%3A0x50b028e4c87614d9!2sFeliksa+Nowowiejskiego+5!5e0!3m2!1spl!2spl!4v1404812898287" ></iframe>
