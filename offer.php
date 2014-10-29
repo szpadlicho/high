@@ -30,11 +30,6 @@
         </script>
         <script type="text/javascript" src="js/jquery.nicescroll.min.js" ></script>
         <script type="text/javascript">
-            var both2 = function () {
-
-            };
-            $(document).ready(both2);
-            $(window).resize(both2);
             $(document).ready(function($) {
                 $(".content-text").niceScroll({autohidemode:false});
                 //$(".content-text").getNiceScroll().resize();
@@ -90,6 +85,14 @@
                         $(function() {
                             $( "#content0-1" ).tabs();
                         });
+                        var both3 = function () {
+                            //var qwe = $( '#content0-11' ).outerHeight();
+                            //var qwe = $( '#content0-11' ).height();
+                            //$( '#mone' ).append(qwe);
+                            //$( '#mone' ).css({'top':qwe+230+'px'});
+                        };
+                        $(document).ready(both3);
+                        $(window).resize(both3);
                     </script>
                     <div id="content0-1" class="content-div">
                         <nav class="left-menu-div-marka">
@@ -124,7 +127,55 @@
                                 </form>
                             </div>
                         </div>
-                    </div>     
+                        <!--
+                        <div id="mone" class="new">
+                            <h3>dfskghdfkjhdkhn</h3>
+                        </div>
+                        <div id="mtwo" class="new">
+                            <h3>dfskghdfkjhdkhn</h3>
+                        </div>
+                        -->
+                    </div>
+                    <div id="content0-1" class="content-div">
+                        <nav class="left-menu-div-marka">
+                            <ul>
+                                <li><a href="#content0-12">Klienci indywidualni</a></li>
+                                <li><a href="#content0-13">Klienci hurtowi</a></li>
+                            </ul>
+                        </nav>
+                        <div id="content0-11" class="content-text">
+                            <h3>HIGH HAIR Professional - nowa polska marka stworzona na potrzeby fryzjerstwa i kosmetyki.</h3>
+                            <br />
+                            <p class="ak">High Hair powstała w 2012 r., jako rodzima marka BOSE - firmy działającej w sferze fryzjerstwa i kosmetyki już od 2009r. Zdobyte doświadczenie pozwoliło nam wyznaczyć jasne priorytety dla marki i już od samego poczatku jej istnienia ukierunkowaliśmy się na jakość i zaspokojenie potrzeb naszych klientów.</p>
+                            <p class="ak">High Hair wspomaga funkcjonowanie salonów fryzjerskich i kosmetycznych&amp;SPA poprzez dostarczanie produktów codziennego użytku.</p>
+                            <p>Wydzieliliśmy 4 główne serie tematyczne, by jeszcze lepiej zrozumieć stojące przed High Hair wyzwania.</p>
+                            <p class="ak">Najważniejszą linią marki jest CARE LINE - seria kosmetyków pielęgnacyjnych do włosów, którą upodobali sobie fryzjerzy. Linię tę sukcesywnie ulepszamy i poszerzamy. Pozostałe trzy serie High Hair przydają się w codziennej pracy profesjonalistów (peleryny fryzjerskie, wsuwki), pomagają utrzymać odpowiedni poziom higieny (artykuły jednorazowe) oraz stanowią eleganckie wyposażenie salonów (podnóżki, uchwyty).</p>
+                            <br />
+                            <p class="ak">Zachęcamy do współpracy klientów indywidualnych i hurtowych.</p>
+                        </div>
+                        <div id="content0-12" class="content-text">
+                            <h3>Zainteresowały Cię produkty marki High Hair Professional? Kliknij, aby pobrać cennik <a class="cennik-link" href="#"></a></h3>
+                        </div>
+                        <div id="content0-13" class="content-text">
+                            <h3>Dla klientów hurtowych przygotowaliśmy osobną ofertę cenową. Jeśli chcesz otrzymać cennik, wypełnij formularz.</h3>
+                            <div class="contact-wholesale">
+                                <?php include_once 'company_check.php'; ?>
+                                <form method="POST">
+                                    <input type="text" name="mail" placeholder="email*" />
+                                    <input type="text" name="company" placeholder="nazwa firmy*" />
+                                    <div class="marka-wyslij" >
+                                        <input type="submit" name="send_c" value="">
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div id="mone" class="new">
+                            <h3>dfskghdfkjhdkhn</h3>
+                        </div>
+                        <div id="mtwo" class="new">
+                            <h3>dfskghdfkjhdkhn</h3>
+                        </div>
+                    </div> 
                 </article>
             </section>
             <!-- OFERTA -->

@@ -4,6 +4,9 @@ body{
 .place-holder-div{
     position:relative;
 }
+.ak{
+    text-indent: 2em;
+}
 .product-square-big{
     display:inline-block;
     position: relative;
@@ -72,14 +75,31 @@ body{
     text-align:justify;
     overflow-x:hidden;
 }
-.content-text > div{
-    position:relative;
+#content0-12,
+#content0-13{
+    padding:0.7em 2em;
+    #display:none;
 }
-.cat2{background:blue;}
-.cat3{background:red;}
-.cat4{background:yellow;}
-.cat5{background:pink;}
-
+#content0-12 h3,
+#content0-13 h3{
+    font-weight:normal;
+}
+#content0-111{
+    position:absolute;
+    top:0;
+    left:0;
+}
+.new{
+    position:absolute;
+    left:20.875em;
+    right:32.5em;
+    color:rgb(255,255,255);
+    background: rgba(0,0,0,.4);
+    padding: 2em;
+    font-family: 'Titillium Web', sans-serif;
+}
+#mone{
+}
 .content-head{
     position:absolute;
     bottom: 1em;
@@ -116,20 +136,9 @@ body{
     left:0.4em;
     
 }
-.ak{
-    text-indent: 2em;
-}
-#content0-12,
-#content0-13{
-    padding:0.7em 2em;
-}
-#content0-12 h3,
-#content0-13 h3{
-    font-weight:normal;
-}
 
 .contact-wholesale{
-    float:right;
+    #float:right;
     text-align:right;
 }
 .contact-wholesale input[type=text]{
