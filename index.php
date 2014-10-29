@@ -95,7 +95,7 @@
             </div>
         </section>
         <footer style="position:absolute; bottom:0; z-index:-1;">
-        <p>Comany F.H. BOSE</p>
+        <p>Company F.H. BOSE</p>
         </footer>
     </body>
 </html>

@@ -218,3 +218,8 @@ div.marka-wyslij input{
 .jedn{ left: -22em; }
 .akce{ left: 5em; }
 .wypo{ left: 32em; }
+
+.debug{display:none;}
+.debug li{display:none;}
+#count_l2,
+#count_r2{display:none;}

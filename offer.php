@@ -69,7 +69,7 @@
                     <li><img class="logo" alt="Logo High Hair" title="High Hair" src="images/LogoHigh.png" /></li>
                     <li><a class="" href="http://www.twojewlosy.pl/search.php?text=high+hair" target="_blank">Sklep</a></li>
                     <li><a class="" href="contact.php">Kontakt</a>
-                        <ul>
+                        <ul class="debug">
                             <li id="count_l2"></li>
                             <li id="count_r2"></li>
                         </ul>
@@ -703,7 +703,7 @@
             <!-- end category -->
         </section>
         <footer style="position:absolute; bottom:0; z-index:-1;">
-        <p>Comany F.H. BOSE</p>
+        <p>Company F.H. BOSE</p>
         <p>Author <a href="http://www.propozycja.eu" target="_blank" title="O mnie">Piotr Szpanelewski</a></p>
         </footer>
     </body>
