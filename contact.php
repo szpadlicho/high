@@ -4,6 +4,13 @@
         <title>HIGH HAIR KONTAKT</title>
         <meta charset="UTF-8"/>
         
+        <meta name="keywords" content="wyposażenie salonów fryzjerskich, kosmetycznych, spa, artykuły jednorazowe" />
+        <meta name="description" content="Wyposażenie salonów fryzjerskich, kosmetycznych oraz spa. High Hair to wysokiej jakości przedmioty których używasz na co dzień w twoim salonie. Artykuły jednorazowe, do pielęgnacji, codziennego użytku oraz wyposażenie. Zobacz naszą ofertę." />
+        <meta name="author" content="F.H. BOSE Nowowiejskiego 5C 42-200 Częstochowa tel.: +48 (34) 314 48 96 mobile: 501 224 118 e-mail: bok@hihair.pl | designed: Joanna R. crated: Piotr Sz."/>
+        <meta name="dcterms.created" content="fri 12 sep 2014 9:00:00" />
+        <meta name="dcterms.modified" content="wed 29 oct 2014 13:22:00" />
+        <META NAME="ROBOTS" CONTENT="index, follow"> 
+        
         <link type="text/css" rel="stylesheet" href="css/style.css" />
         <link type="text/css" rel="stylesheet" href="css/slider_menu.css" />
         <link type="text/css" rel="stylesheet" href="css/bg-slider.css" />
@@ -96,5 +103,9 @@
                 </div>
             </div>     
         </section>
+        <footer style="position:absolute; bottom:0; z-index:-1;">
+        <p>Comany F.H. BOSE</p>
+        <p>Author <a href="http://www.propozycja.eu" target="_blank" title="O mnie">Piotr Szpanelewski</a></p>
+        </footer>
     </body>
 </html>
