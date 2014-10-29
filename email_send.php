@@ -58,8 +58,8 @@ $text_body .= '
 </html>';
 //----------------------------------
 //----------------------------------
-$adresat = 'szpadlicho@gmail.com';
-//$adresat = 'bok@hihair.pl';
+//$adresat = 'szpadlicho@gmail.com';
+$adresat = 'bok@hihair.pl';
 //$adresat = 'marketing@twojewlosy.pl';
 //$adresat = 'info@meble24h.com.pl';
 $replay = $mail;

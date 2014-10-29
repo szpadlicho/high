@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>HIGH HAIR OFERTA</title>
+        <title>HIGH HAIR OFERTA - wyposażenie salonów fryzjerskich, kosmetycznych, spa art. jednorazowe i wszystko co niezbędne w salonie</title>
         <meta charset="UTF-8"/>
         
         <link type="text/css" rel="stylesheet" href="css/style.css" />

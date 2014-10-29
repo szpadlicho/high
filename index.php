@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html lang="pl-PL">
     <head>
-        <title>HIGH HAIR HOME</title>
+        <title>HIGH HAIR wyposażenie salonów fryzjerskich, kosmetycznych, spa.</title>
         <meta charset="UTF-8" />
         
         <link type="text/css" rel="stylesheet" href="css/style.css" />
