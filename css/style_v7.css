@@ -75,31 +75,20 @@ body{
     text-align:justify;
     overflow-x:hidden;
 }
-#content0-12,
-#content0-13{
-    padding:0.7em 2em;
-    #display:none;
+/*GO MARKA*/
+#marka-five{
+    display:none;
 }
-#content0-12 h3,
-#content0-13 h3{
+#marka-four,
+#marka-five{
+    top:36.5em;
+    padding:0.7em 2em;
+}
+#marka-four h3,
+#marka-five h3{
     font-weight:normal;
 }
-#content0-111{
-    position:absolute;
-    top:0;
-    left:0;
-}
-.new{
-    position:absolute;
-    left:20.875em;
-    right:32.5em;
-    color:rgb(255,255,255);
-    background: rgba(0,0,0,.4);
-    padding: 2em;
-    font-family: 'Titillium Web', sans-serif;
-}
-#mone{
-}
+/*END MARKA*/
 .content-head{
     position:absolute;
     bottom: 1em;

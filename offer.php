@@ -83,13 +83,22 @@
                             $('#content0-1').css( 'display' , 'block' );
                         });
                         $(function() {
-                            $( "#content0-1" ).tabs();
+                            //$( "#content0-1" ).tabs();
                         });
                         var both3 = function () {
                             //var qwe = $( '#content0-11' ).outerHeight();
                             //var qwe = $( '#content0-11' ).height();
                             //$( '#mone' ).append(qwe);
                             //$( '#mone' ).css({'top':qwe+230+'px'});
+                            //$( '#marka-one' ).addClass('active');
+                            $( '#marka-one' ).click(function() {
+                               $( '#marka-four' ).css( 'display' , 'block' );
+                               $( '#marka-five' ).css( 'display' , 'none' );
+                            });
+                            $( '#marka-two' ).click(function() {
+                               $( '#marka-four' ).css( 'display' , 'none' );
+                               $( '#marka-five' ).css( 'display' , 'block' );
+                            });
                         };
                         $(document).ready(both3);
                         $(window).resize(both3);
@@ -97,11 +106,11 @@
                     <div id="content0-1" class="content-div">
                         <nav class="left-menu-div-marka">
                             <ul>
-                                <li><a href="#content0-12">Klienci indywidualni</a></li>
-                                <li><a href="#content0-13">Klienci hurtowi</a></li>
+                                <li class="active"><a id="marka-one" href="#sq0">Klienci indywidualni</a></li>
+                                <li><a id="marka-two" href="#sq0">Klienci hurtowi</a></li>
                             </ul>
                         </nav>
-                        <div id="content0-11" class="content-text">
+                        <div id="marka-three" class="content-text">
                             <h3>HIGH HAIR Professional - nowa polska marka stworzona na potrzeby fryzjerstwa i kosmetyki.</h3>
                             <br />
                             <p class="ak">High Hair powstała w 2012 r., jako rodzima marka BOSE - firmy działającej w sferze fryzjerstwa i kosmetyki już od 2009r. Zdobyte doświadczenie pozwoliło nam wyznaczyć jasne priorytety dla marki i już od samego poczatku jej istnienia ukierunkowaliśmy się na jakość i zaspokojenie potrzeb naszych klientów.</p>
@@ -111,10 +120,10 @@
                             <br />
                             <p class="ak">Zachęcamy do współpracy klientów indywidualnych i hurtowych.</p>
                         </div>
-                        <div id="content0-12" class="content-text">
+                        <div id="marka-four" class="content-text">
                             <h3>Zainteresowały Cię produkty marki High Hair Professional? Kliknij, aby pobrać cennik <a class="cennik-link" href="#"></a></h3>
                         </div>
-                        <div id="content0-13" class="content-text">
+                        <div id="marka-five" class="content-text">
                             <h3>Dla klientów hurtowych przygotowaliśmy osobną ofertę cenową. Jeśli chcesz otrzymać cennik, wypełnij formularz.</h3>
                             <div class="contact-wholesale">
                                 <?php include_once 'company_check.php'; ?>
@@ -128,15 +137,6 @@
                             </div>
                         </div>
                         <!--
-                        <div id="mone" class="new">
-                            <h3>dfskghdfkjhdkhn</h3>
-                        </div>
-                        <div id="mtwo" class="new">
-                            <h3>dfskghdfkjhdkhn</h3>
-                        </div>
-                        -->
-                    </div>
-                    <div id="content0-1" class="content-div">
                         <nav class="left-menu-div-marka">
                             <ul>
                                 <li><a href="#content0-12">Klienci indywidualni</a></li>
@@ -175,6 +175,7 @@
                         <div id="mtwo" class="new">
                             <h3>dfskghdfkjhdkhn</h3>
                         </div>
+                        -->
                     </div> 
                 </article>
             </section>

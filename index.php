@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html lang="pl-PL">
     <head>
-        <title>HIGH HAIR wyposażenie salonów fryzjerskich, kosmetycznych, spa.</title>
+        <title>HIGH HAIR Oficjalna strona - wyposażenie salonów fryzjerskich, kosmetycznych, spa.</title>
         <meta charset="UTF-8" />
         
         <meta name="keywords" content="wyposażenie salonów fryzjerskich, kosmetycznych, spa, artykuły jednorazowe" />
@@ -96,6 +96,7 @@
         </section>
         <footer style="position:absolute; bottom:0; z-index:-1;">
         <p>Company F.H. BOSE</p>
+        <h2>High Hair Oficjalna Strona</h2>
         </footer>
     </body>
 </html>

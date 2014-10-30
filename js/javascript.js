@@ -3,6 +3,10 @@ $(document).ready(function() {
         $('a').removeClass('active');
         $(this).addClass('active');
     });
+    $('.left-menu-div-marka ul li').click(function() {
+        $('.left-menu-div-marka ul li').removeClass('active');
+        $(this).addClass('active');
+    });
 });
 
 $(document).ready(function() {
