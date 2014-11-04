@@ -1,15 +1,15 @@
 <!DOCTYPE HTML>
 <html lang="pl-PL">
     <head>
-        <title>HIGH HAIR Oficjalna strona - wyposażenie salonów fryzjerskich, kosmetycznych, spa.</title>
+        <title>HIGH HAIR OFICJALNA STRONA - wyposażenie salonów fryzjerskich, kosmetycznych, spa.</title>
         <meta charset="UTF-8" />
         
         <meta name="keywords" content="wyposażenie salonów fryzjerskich, kosmetycznych, spa, artykuły jednorazowe" />
-        <meta name="description" content="Wyposażenie salonów fryzjerskich, kosmetycznych oraz spa. High Hair to wysokiej jakości przedmioty których używasz na co dzień w twoim salonie. Artykuły jednorazowe, do pielęgnacji, codziennego użytku oraz wyposażenie. Zobacz naszą ofertę." />
+        <meta name="description" content="Wyposażenie salonów fryzjerskich, kosmetycznych oraz spa. High Hair professional to wysokiej jakości przedmioty których używasz na co dzień w twoim salonie. Artykuły jednorazowe, do pielęgnacji, codziennego użytku oraz wyposażenie. Zobacz naszą ofertę. Zapraszamy do współpracy." />
         <meta name="author" content="F.H. BOSE Nowowiejskiego 5C 42-200 Częstochowa tel.: +48 (34) 314 48 96 mobile: 501 224 118 e-mail: bok@hihair.pl | designed: Joanna R. crated: Piotr Sz."/>
         <meta name="dcterms.created" content="fri 12 sep 2014 9:00:00" />
-        <meta name="dcterms.modified" content="wed 29 oct 2014 13:22:00" />
-        <META NAME="ROBOTS" CONTENT="index, follow"> 
+        <meta name="dcterms.modified" content="thu 30 oct 2014 13:22:00" />
+        <meta name="robots" CONTENT="index, follow"> 
         
         <link type="text/css" rel="stylesheet" href="css/style.css" />
         <link type="text/css" rel="stylesheet" href="css/slider_menu.css" />
@@ -67,7 +67,8 @@
         </nav>
         -->
         <!-- top menu end-->
-        <section class="product-square-big">
+        <Section class="product-square-big">
+            <h1 class="header-big rotate">Oficjalna Strona marki High Hair professional.</h1>
             <!-- slider menu -->
             <header>
                 <nav>
@@ -95,8 +96,8 @@
             </div>
         </section>
         <footer style="position:absolute; bottom:0; z-index:-1;">
-        <p>Company F.H. BOSE</p>
-        <h2>High Hair Oficjalna Strona</h2>
+            <p>Company F.H. BOSE</p>
+            <!--<h2>High Hair Oficjalna Strona</h2>-->
         </footer>
     </body>
 </html>

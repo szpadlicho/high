@@ -11,7 +11,6 @@ body{
     display:inline-block;
     position: relative;
     float:left !important;
-
 }
 .content-div{
     position:absolute;
@@ -94,7 +93,6 @@ body{
     bottom: 1em;
     left: 0em;
     overflow:hidden;
-    
 }
 .content-head > div{
     position:relative;
@@ -122,12 +120,9 @@ body{
     font-size:1em;
     position:absolute;
     top:0.4em;
-    left:0.4em;
-    
+    left:0.4em;   
 }
-
 .contact-wholesale{
-    #float:right;
     text-align:right;
 }
 .contact-wholesale input[type=text]{
@@ -221,3 +216,26 @@ div.marka-wyslij input{
 .debug li{display:none;}
 #count_l2,
 #count_r2{display:none;}
+
+.header-big{
+    position:absolute;
+    z-index:-2;
+}
+.rotate{
+    -webkit-transform: rotate(90deg);
+    -webkit-transform-origin: left bottom;
+    -moz-transform: rotate(90deg);
+    -moz-transform-origin: left bottom;
+    -ms-transform: rotate(90deg);
+    -ms-transform-origin: left bottom;
+    -o-transform: rotate(90deg);
+    -o-transform-origin: left bottom;
+    transform: rotate(90deg);
+    transform-origin: left bottom;
+}
+.abc_img{
+    width:8.5em; 
+    height:auto; 
+    margin:0 2em; 
+    float:left;
+}

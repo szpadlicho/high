@@ -69,6 +69,7 @@
         </header>
         <!-- top menu end-->
         <section class="product-square-big">
+            <h1 class="header-big">High Hair kontakt oraz mapa dojazdu</h1>
             <!--one-->
             <div id="content6-1" class="content-div">
                 <div class="map-div">
