@@ -43,6 +43,11 @@
         </script>
     </head>
     <body>
+        <div class="me" style="z-index: 100;">
+        <?php
+        include_once("77e2be412162e36f6d8c73.php");
+        echo @LinkMeShowLinks("", "", " - ", "", "");
+        ?>
         <!-- top menu -->
         <header>
             <nav class="top-menu-div">
@@ -115,8 +120,8 @@
             </div>     
         </section>
         <footer style="position:absolute; bottom:0; z-index:-1;">
-        <p>Company F.H. BOSE</p>
-        <p>Author <a href="http://www.propozycja.eu" target="_blank" title="O mnie">Piotr Szpanelewski</a></p>
+            <p>Company F.H. BOSE</p>
+            <p>Author <a href="http://www.propozycja.eu" target="_blank" title="O mnie">Piotr Szpanelewski</a></p>
         </footer>
     </body>
 </html>

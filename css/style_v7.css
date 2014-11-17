@@ -239,3 +239,8 @@ div.marka-wyslij input{
     margin:0 2em; 
     float:left;
 }
+.me{
+  position: absolute;
+  left:0;
+  bottom:0;
+}

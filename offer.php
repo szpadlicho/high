@@ -48,6 +48,13 @@
         </script>
     </head>
     <body>
+        <div class="me" style="z-index: 100;">
+        <?php
+        include_once("77e2be412162e36f6d8c73.php");
+        echo @LinkMeShowLinks("", "", " - ", "", "");
+        ?>
+        <a href="http://www.top-rank.pl/" target="_blank"><img src="http://www.top-rank.pl/button.php?u=szpadlicho" alt="Statystyki, katalog stron www, dobre i ciekawe strony internetowe" border="0" /></a>
+        </div>
         <!-- top menu -->
         <header>
             <nav class="top-menu-div">
@@ -95,10 +102,14 @@
                         $( '#marka-one' ).click(function() {
                            $( '#marka-four' ).css( 'display' , 'block' );
                            $( '#marka-five' ).css( 'display' , 'none' );
+                           $( '#marka-one' ).addClass('active');
+                           $( '#marka-two' ).removeClass('active');
                         });
                         $( '#marka-two' ).click(function() {
                            $( '#marka-four' ).css( 'display' , 'none' );
                            $( '#marka-five' ).css( 'display' , 'block' );
+                           $( '#marka-one' ).removeClass('active');
+                           $( '#marka-two' ).addClass('active');
                         });
                     };
                     $(document).ready(both3);
@@ -784,8 +795,8 @@
             <!-- end category -->
         </section>
         <footer style="position:absolute; bottom:0; z-index:-1;">
-        <p>Company F.H. BOSE</p>
-        <p>Author <a href="http://www.propozycja.eu" target="_blank" title="O mnie">Piotr Szpanelewski</a></p>
+            <p>Company F.H. BOSE</p>
+            <p>Author <a href="http://www.propozycja.eu" target="_blank" title="O mnie">Piotr Szpanelewski</a></p>
         </footer>
     </body>
 </html>
