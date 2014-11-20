@@ -58,14 +58,14 @@
     right:10%;
 }
 .rectangle-div-bg:nth-child(2){
-    background:rgba(205,0,52,1.0)
+    background:rgba(205,0,52,.9)
 }
 .rectangle-div-bg:nth-child(5){
-    background:rgba(55,61,64,1.0)
+    background:rgba(55,61,64,.9)
 }
 .rectangle-div-bg:nth-child(8){
-    background:rgba(105,113,102,1.0)
+    background:rgba(105,113,102,.9)
 }
 .rectangle-div-bg:nth-child(11){
-    background:rgba(45,144,156,1.0)
+    background:rgba(45,144,156,.9)
 }
