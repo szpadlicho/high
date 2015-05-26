@@ -22,6 +22,7 @@
 }
 .top-menu-div  > ul > li > ul{
     position:absolute;
+    top: 2.9em;
     display:none;
 }
 .top-menu-div  > ul > li:hover > ul{
@@ -36,7 +37,10 @@
     padding:0.5em;
     cursor: pointer;
 }
-.top-menu-div > ul > li > a:hover{
+/* .top-menu-div > ul > li > a:hover{
+    background: rgba(0,0,0,1.0);
+} */
+.top-menu-div > ul > li:hover > a{
     background: rgba(0,0,0,1.0);
 }
 .top-menu-div > ul > li > img{
@@ -52,4 +56,8 @@
     color:white;
     text-decoration:none;
     padding:0.5em 1em;
+}
+.top-menu-div  > ul > li > ul > li:hover{
+    background: rgba(0,0,0,1.0);
+    width: 100%;
 }

@@ -48,11 +48,6 @@
         </script>
     </head>
     <body>
-        <div class="me" style="z-index: 100;">
-        <?php
-        include_once("77e2be412162e36f6d8c73.php");
-        echo @LinkMeShowLinks("", "", " - ", "", "");
-        ?>
         <a href="http://www.top-rank.pl/" target="_blank"><img src="http://www.top-rank.pl/button.php?u=szpadlicho" alt="Statystyki, katalog stron www, dobre i ciekawe strony internetowe" border="0" /></a>
         </div>
         <!-- top menu -->
@@ -244,6 +239,7 @@
                             <li><a id="trigger2-1">Banana Mask</a></li>
                             <li><a id="trigger2-2">Repair Mask</a></li>
                             <li><a id="trigger2-3">Argan Oil</a></li>
+                            <li><a id="trigger2-4">Rozjaśniacz</a></li>
                         </ul>
                         <div class="menu-links">
                             <ul>
@@ -314,7 +310,21 @@
                             <p  class="ak">Argan Oil fantastycznie odżywia włosy i sprawia, że są mocniejsze, grubsze i lśniące. Aplikowany na końcówki zapobiega rozdwajaniu, wmasowywany w skórę głowy poprawia żywotność i stan włosów.</p>
                         </div>
                     </div>
-                </div>       
+                </div>
+                <div id="content2-4" class="content-div">
+                    <div class="content-head">
+                        <div>
+                            <h2 class="content-text-head2">Rozjaśniacz&nbsp;Platinum&nbsp;Ultra</h2><p class="content-text-head3">High&nbsp;Hair&nbsp;professional</p>
+                        </div>
+                    </div>
+                    <div class="content-text">
+                        <div>
+                            <p class="ak">Działa na włosy niezwykle delikatnie. Formuła rozjaśniacza pozwala na uzyskanie naturalnej i jednolitej dekoloryzacji. W połączeniu z utleniaczem pozwala na rozjaśnienie do 9 tonów w zależności od stężenia utleniacza i czasu. Skuteczny w działaniu.</p>
+                            <p class="ak">Produkt profesjonalny. Przeznaczony do użytku w salonach fryzjerskich.</p>
+                            <p class="ak">Pojemność 500g.</p>
+                        </div>
+                    </div>
+                </div> 
             </article>
             <!-- JEDNORAZOWE -->
             <article id="sq3" class="product-square-big">

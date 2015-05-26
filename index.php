@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html lang="pl-PL">
     <head>
-        <title>HIGH HAIR OFICJALNA STRONA - wyposażenie salonów fryzjerskich, kosmetycznych, spa.</title>
+        <title>HIGH HAIR Hurtownia Fryzjerska Oficjalna Strona - wyposażenie salonów fryzjerskich, kosmetycznych, spa.</title>
         <meta charset="UTF-8" />
         
         <meta name="keywords" content="wyposażenie salonów fryzjerskich, kosmetycznych, spa, artykuły jednorazowe" />
@@ -42,12 +42,6 @@
         </script>
     </head>
     <body>
-        <div class="me" style="z-index: 100;">
-        <?php
-        include_once("77e2be412162e36f6d8c73.php");
-        echo @LinkMeShowLinks("", "", " - ", "", "");
-        ?>
-        </div>
         <!-- top menu -->
         <!--
         <nav class="top-menu-div">

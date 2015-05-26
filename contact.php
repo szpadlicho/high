@@ -43,11 +43,6 @@
         </script>
     </head>
     <body>
-        <div class="me" style="z-index: 100;">
-        <?php
-        include_once("77e2be412162e36f6d8c73.php");
-        echo @LinkMeShowLinks("", "", " - ", "", "");
-        ?>
         <!-- top menu -->
         <header>
             <nav class="top-menu-div">
